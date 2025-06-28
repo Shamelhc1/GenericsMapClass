@@ -13,6 +13,6 @@ public class Park extends Point{
 
     @Override
     public String render() {
-        return "%8s \t %8s \t %8s".formatted(name, type, super.getCoordinates());
+        return "%-15s \t %-15s \t %8s".formatted(name, type, super.getCoordinates());
     }
 }
