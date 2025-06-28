@@ -2,6 +2,10 @@ This is a simple Java project that simulates mapping locations (like national pa
 
 Features:
 	•	Models coordinates with validation (latitude and longitude checks).
+ 
 	•	Supports multiple types of locations like parks and rivers.
+ 
 	•	Implements a basic structure using interfaces and inheritance for mappable elements.
+ 
 	•	Demonstrates good Java practices like custom constructors and type-safe collections.
+ 
