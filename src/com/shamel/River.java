@@ -7,8 +7,11 @@ public class River extends Line{
     private String name;
     private String type;
 
-    public River(ArrayList<Coordinates> coordinatesList) {
+
+    public River(String name, String type, ArrayList<Coordinates> coordinatesList) {
         super(coordinatesList);
+        this.name = name;
+        this.type = type;
     }
 
     @Override

@@ -5,8 +5,10 @@ public class Park extends Point{
     private String name;
     private String type;
 
-    public Park(Coordinates coordinates) {
+    public Park(String name, String type, Coordinates coordinates) {
         super(coordinates);
+        this.name = name;
+        this.type = type;
     }
 
     @Override
